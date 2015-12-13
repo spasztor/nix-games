@@ -2,12 +2,16 @@
 
 #### Introduction
 The purpose of this readme is to provide documentation for services, locations and whatever else that is useful for the server nix-minecraft.
-#### Structure
-The structure of this readme is as follows:
+
 #### Services
-- 
-Services:
-Mumble
+The general workflow is to run any interface players will interact with as a service. Thus all services can be accessed with `services [command] [option]`.
+
+###### The current services that are on the server are as follows:
+- [Mumble](#### Mumble)
+- Minecraft
+##### Mumble
+##### Minecraft
+
         - To start or stop mumble use services command: "services mumble-server [command]". See
         - Configuration file located at: "/etc/mumble-server.ini"
         - To edit server channels, permisions, etc. login as: superuser; H4mmerTIM3
