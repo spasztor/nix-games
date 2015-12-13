@@ -9,8 +9,8 @@ The purpose of this readme is to provide documentation for services, locations a
 The general workflow is to run any interface players will interact with as a service. Thus all services can be accessed with `services [command] [option]`.
 
 ###### The current services that are on the server are as follows:
-- [Mumble-Server](# Mumble-Server)
-- [Minecraft](# Minecraft)
+- [Mumble-Server](#Mumble-Server)
+- [Minecraft](#Minecraft)
 
 Below you can find the services and their individual guides.  
 
