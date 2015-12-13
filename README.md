@@ -1,5 +1,5 @@
-# Readme
----
+# Readme   
+
 #### Introduction
 The purpose of this readme is to provide documentation for services, locations and whatever else that is useful for the server nix-minecraft.
 #### Structure
