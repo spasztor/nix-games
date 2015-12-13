@@ -1,6 +1,11 @@
-Readme file for Server.
--
-
+# Readme
+---
+#### Introduction
+The purpose of this readme is to provide documentation for services, locations and whatever else that is useful for the server nix-minecraft.
+#### Structure
+The structure of this readme is as follows:
+#### Services
+- 
 Services:
 Mumble
         - To start or stop mumble use services command: "services mumble-server [command]". See
