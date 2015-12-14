@@ -6,10 +6,11 @@ The purpose of this readme is to provide documentation for services, locations a
 ---
 #### Packages being used:
 - minecraft_server.1.8.9.jar
-- mumbe-server
+- mumble-server
 - openjdk-8-jre
 - rdiff-backup
 - screen
+- upstart
 
 ---
 #### Users
@@ -37,5 +38,6 @@ Below you can find the services and their individual guides.
 #### minecraft
 - For Installation [this guide](http://wellsie.net/p/349/) was followed.
 - upstart configuration script can be found at `/etc/init/bukkit.conf`
-- 
+
+
 ---
