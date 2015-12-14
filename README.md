@@ -29,4 +29,7 @@ Below you can find the services and their individual guides.
 
 #### minecraft
 - For Installation follow [this guide](http://wellsie.net/p/349/).
+- test
+- test
+- test
 ---
