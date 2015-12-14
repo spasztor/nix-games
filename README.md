@@ -9,6 +9,7 @@ The purpose of this readme is to provide documentation for services, locations a
 - minecraft_server.1.8.9.jar
 - mumbe-server
 - openjdk-8-jre
+
 ---
 #### Services
 The general workflow is to run any interface players will interact with as a service. Thus all services can be accessed with `services [command] [option]`.
