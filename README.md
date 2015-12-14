@@ -4,7 +4,13 @@
 The purpose of this readme is to provide documentation for services, locations and whatever else that is useful for the server nix-minecraft.
 
 ---
-
+#### Installed packages:
+- unzip
+- minecraft_server.1.8.9.jar
+- mumbe-server
+- openjdk-8-jre
+- yajsw
+---
 #### Services
 The general workflow is to run any interface players will interact with as a service. Thus all services can be accessed with `services [command] [option]`.
 
