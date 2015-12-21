@@ -1,0 +1,33 @@
+pkgbase = minecraft-server
+	pkgdesc = Minecraft server unit files, script, and jar
+	pkgver = 1.8.8
+	pkgrel = 2
+	url = http://minecraft.net/
+	install = minecraft-server.install
+	arch = any
+	license = custom
+	depends = java-runtime-headless
+	depends = screen
+	depends = sudo
+	depends = bash
+	optdepends = tar: needed in order to create world backups
+	conflicts = minecraft-server-systemd
+	conflicts = minecraft-canary
+	noextract = minecraft_server.1.8.8.jar
+	options = !strip
+	backup = etc/conf.d/minecraft
+	source = https://s3.amazonaws.com/Minecraft.Download/versions/1.8.8/minecraft_server.1.8.8.jar
+	source = minecraftd-backup.service
+	source = minecraftd-backup.timer
+	source = minecraftd.service
+	source = minecraftd.conf
+	source = minecraftd.sh
+	md5sums = a0671390aa0691e70a950155aab06ffb
+	md5sums = 2cf6cdf65e0ed6aa6d452943b1e84357
+	md5sums = c644abdf293c2f98033a64d732a4945c
+	md5sums = 5ed78e366146e47f8498347e93ad5423
+	md5sums = d4656f27716fd78ab64344a517b07443
+	md5sums = 2a54c072bb414eb6a14867efabfc163a
+
+pkgname = minecraft-server
+
