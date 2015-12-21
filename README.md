@@ -2,7 +2,7 @@
 
 #### Introduction
 The purpose of this readme is to provide documentation for services, locations and whatever else that is useful for the server nix-minecraft.
-###### Note:
+
 No information regarding connecting to the vminstance will be found in this readme. Contact us for that kind of information.
 
 ---
