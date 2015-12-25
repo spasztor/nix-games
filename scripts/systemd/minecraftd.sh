@@ -3,12 +3,12 @@
 source /etc/conf.d/minecraft || echo "Could not source /etc/conf.d/minecraft"
 
 # You may use this script for any minecraft server of your choice, just alter the config file
-SERVER_ROOT="${SERVER_ROOT:-/srv/minecraft}"
-BACKUPPATH="${BACKUPPATH:-/srv/minecraft/backup}"
-LOGPATH="${LOGPATH:-/srv/minecraft/logs}"
-WORLDPATHS="${WORLDPATHS:-/srv/minecraft/world}"
-KEEP_BACKUPS="${KEEP_BACKUPS:-10}"
 MC_USER="${MC_USER:-minecraft}"
+SERVER_ROOT="${SERVER_ROOT:-/home/${MC_USER}/server}"
+BACKUPPATH="${BACKUPPATH:-/home/${MC_USER}/server/backup}"
+LOGPATH="${LOGPATH:-/home/${MC_USER}/server/logs}"
+WORLDPATHS="${WORLDPATHS:-/home/${MC_USER}/server/world}"
+KEEP_BACKUPS="${KEEP_BACKUPS:-10}"
 MAIN_JAR="${MAIN_JAR:-minecraft_server.jar}"
 SESSION_NAME="${SESSION_NAME:-minecraft}"
 

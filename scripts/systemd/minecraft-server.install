@@ -1,5 +1,5 @@
 USER="minecraft"
-SERVER_ROOT="/srv/minecraft"
+SERVER_ROOT="/home/${USER}"
 
 _update() {
 	getent group "${USER}" &>/dev/null
