@@ -1,24 +1,24 @@
 #!/bin/bash
 
-source /etc/conf.d/minecraft || echo "Could not source /etc/conf.d/minecraft"
+# source /etc/conf.d/minecraft || echo "Could not source /etc/conf.d/minecraft"
 
 # You may use this script for any minecraft server of your choice, just alter the config file
-MC_USER="${MC_USER:-minecraft}"
-SERVER_ROOT="${SERVER_ROOT:-/home/${MC_USER}/server}"
-BACKUPPATH="${BACKUPPATH:-/home/${MC_USER}/server/backup}"
-LOGPATH="${LOGPATH:-/home/${MC_USER}/server/logs}"
-WORLDPATHS="${WORLDPATHS:-/home/${MC_USER}/server/world}"
-KEEP_BACKUPS="${KEEP_BACKUPS:-10}"
-MAIN_JAR="${MAIN_JAR:-minecraft_server.jar}"
-SESSION_NAME="${SESSION_NAME:-minecraft}"
+SERVER_ROOT="/srv/minecraft"
+BACKUPPATH="${SERVER_ROOT}/backup"
+LOGPATH="${SERVER_ROOT}/logs"
+WORLDPATHS="${SERVER_ROOT}/server/world"
+KEEP_BACKUPS="10" # Amount of backups to keep before delete
+MAIN_JAR="minecraft_server.jar"
+MC_USER="minecraft"
+SESSION_NAME="minecraft"
 
 # Specify system parameters for the minecraft server
-MINHEAP="${MINHEAP:-512M}"
-MAXHEAP="${MAXHEAP:-1024M}"
-THREADS="${THREADS:-1}"
-JAVA_PARMS="${JAVA_PARMS:-"-Xmx${MAXHEAP} -Xms${MINHEAP} -XX:ParallelGCThreads=${THREADS}"}"
+MINHEAP="512M"
+MAXHEAP="1024M"
+THREADS="1"
+JAVA_PARMS="Xmx${MAXHEAP} -Xms${MINHEAP} -XX:ParallelGCThreads=${THREADS}"
 
-# Check for sudo rigths
+# Check for sudo rights
 if [ $(sudo whoami) != "root" ]; then
 	echo "You must have sudo access in order to use this script."
 	exit 1
