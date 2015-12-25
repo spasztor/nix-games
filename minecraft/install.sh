@@ -13,4 +13,4 @@ MAIN_JAR="minecraft_server.jar"
 
 wget --output-document=${SERVER_ROOT}/${MAIN_JAR} ${JAR_SOURCE}
 cp ./minecraft-server.sh ${SERVER_ROOT}/minecraft-server.sh
-cp ./minecraft-server.conf /init/minecraft-server.conf
+cp ./minecraft-server.conf /etc/init/minecraft-server.conf
