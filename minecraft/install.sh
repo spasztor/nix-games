@@ -9,24 +9,23 @@ MAIN_JAR="minecraft_server.jar"
 
 if [ -z "$(getent passwd ${MC_USER})" ]
 then
-    echo "${MC_USER} user not found. Adding..."
+    echo "User '${MC_USER}' not found. Adding..."
     groupadd ${MC_USER_GROUP}
     useradd -g ${MC_USER_GROUP} ${MC_USER}
     echo ${MC_USER}:${MC_USER_PASSWORD} | chpasswd
 else
-    echo "${MC_USER} user found."
+    echo "User '${MC_USER}' found."
 fi
 
 if [ ! -d ${SERVER_ROOT} ]
 then
-    echo "${SERVER_ROOT} not found. Creating..."
+    echo "Path '${SERVER_ROOT}' not found. Creating..."
     mkdir ${SERVER_ROOT}
     chown -R ${MC_USER}:${MC_USER_GROUP} ${SERVER_ROOT}
 fi
 
-echo "Downloading jar file..."
-#wget -O ${SERVER_ROOT}/${MAIN_JAR} ${JAR_SOURCE}
-echo "Installing scripts..."
-echo $(dirname "$BASH_SOURCE")
-#cp $(dirname "$BASH_SOURCE")./minecraft-server.sh ${SERVER_ROOT}/minecraft-server.sh
-#cp $(dirname "$BASH_SOURCE")./minecraft-server.conf /etc/init/minecraft-server.conf
+echo "Downloading jar file.../n/n"
+wget -O ${SERVER_ROOT}/${MAIN_JAR} ${JAR_SOURCE}
+echo "/nInstalling scripts..."
+cp $(dirname $0)./minecraft-server.sh /usr/bin/minecraft-server.sh
+cp $(dirname $0)./minecraft-server.conf /etc/init/minecraft-server.conf
