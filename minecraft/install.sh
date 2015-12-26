@@ -24,8 +24,8 @@ then
     chown -R ${MC_USER}:${MC_USER_GROUP} ${SERVER_ROOT}
 fi
 
-echo "Downloading jar file.../n/n"
-wget -O ${SERVER_ROOT}/${MAIN_JAR} ${JAR_SOURCE}
-echo "/nInstalling scripts..."
-cp $(dirname $0)./minecraft-server.sh /usr/bin/minecraft-server.sh
-cp $(dirname $0)./minecraft-server.conf /etc/init/minecraft-server.conf
+echo "Downloading jar file..."
+wget -nv -O ${SERVER_ROOT}/${MAIN_JAR} ${JAR_SOURCE}
+echo "Installing scripts..."
+cp $(dirname $0)/minecraft-server.sh /usr/bin/minecraft-server.sh
+cp $(dirname $0)/minecraft-server.conf /etc/init/minecraft-server.conf
