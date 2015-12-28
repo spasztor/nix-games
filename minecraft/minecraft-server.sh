@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 # source /etc/conf.d/minecraft || echo "Could not source /etc/conf.d/minecraft"
 
@@ -18,7 +18,7 @@ MAXHEAP="1024M"
 THREADS="1"
 JAVA_PARMS="-Xmx${MAXHEAP} -Xms${MINHEAP} -XX:ParallelGCThreads=${THREADS}"
 
-Check for sudo rights
+# Check for sudo rights
 if [ $(sudo whoami) != "root" ]; then
     echo "You must have sudo access in order to use this script."
     exit 1
@@ -31,7 +31,7 @@ mc_command() {
 
 # Start the server if it is not already running
 server_start() {
-    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q select . > /dev/null
+    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q "select" . > /dev/null
     if [ $? -eq 0 ]; then
         echo "A screen ${SESSION_NAME} session is already running. Please close it first."
     else
@@ -43,10 +43,10 @@ server_start() {
 
 # Stop the server gracefully by saving everything prior and warning the users
 server_stop() {
-    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q select . > /dev/null
+    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q "select" . > /dev/null
     if [ $? -eq 0 ]; then
         mc_command save-all
-        mc_command say "Server is going down in 10 seconds! HURRY UP WITH WATHEVER YOU ARE DOING!" # Warning the users
+        mc_command say "Server is going down in 10 seconds! HURRY UP WITH WHATEVER YOU ARE DOING!" # Warning the users
         echo -en "Server is going down in... "
         for i in $(seq 1 10);
         do
@@ -63,7 +63,7 @@ server_stop() {
 
 # Print whether the server is running and if so give some information about memory usage and threads
 server_status() {
-    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q select . > /dev/null
+    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q "select" . > /dev/null
     if [ $? -eq 0 ]; then
         echo -e "Status:\e[39;1m running\e[0m"
 
@@ -78,7 +78,7 @@ server_status() {
 
 # Restart the complete server by shutting it down and starting it again
 server_restart() {
-    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q select . > /dev/null
+    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q "select" . > /dev/null
     if [ $? -eq 0 ]; then
         server_stop
         sleep 0.1
@@ -99,7 +99,7 @@ backup_files() {
     echo "Starting backup..."
     FILE="`date +%Y%m%d%H%M%S`.tar.gz"
     sudo -u ${MC_USER} mkdir -p ${BACKUPPATH}
-    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q select . > /dev/null
+    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q "select" . > /dev/null
     if [ $? -eq 0 ]; then
         mc_command save-off
         mc_command save-all
@@ -128,7 +128,7 @@ server_command() {
         exit 1
     fi
 
-    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q select . > /dev/null
+    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q "select" . > /dev/null
     if [ $? -eq 0 ]; then
         sleep 0.1s &
         SLEEP_PID=$!
@@ -141,7 +141,7 @@ server_command() {
 
 # Enter the screen minecraft session
 server_console() {
-    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q select . > /dev/null
+    sudo -u ${MC_USER} screen -S ${SESSION_NAME} -Q "select" . > /dev/null
     if [ $? -eq 0 ]; then
         sudo -u ${MC_USER} screen -S ${SESSION_NAME} -rx
     else
@@ -150,22 +150,20 @@ server_console() {
 }
 
 # Help function, no arguments required
-help() {
-    cat <<- 'EOF'
-    This script was design to easily control any minecraft server. Quite every parameter for a given
-    minecraft server derivative can be altered by editing the variables in the configuration file.
-
-    Usage: minecraftd {start|stop|status|backup|command <command>|console}
-        start                Start the minecraft server
-        stop                 Stop the minecraft server
-        restart              Restart the minecraft server
-        status               Print some status information
-        backup               Backup the world data
-        command <command>    Run the given comman at the minecraft server console
-        console              Enter the server console through a screen session
-
-    Copyright (c) Gordian Edenhofer <gordian.edenhofer@gmail.com>
-    EOF
+script_help() {
+    echo "This script was design to easily control any minecraft server. Quite every parameter for"
+    echo "a given minecraft server derivative can be altered by editing the variables in the"
+    echo "configuration file."
+    echo "\nUsage: minecraft-server {start|stop|status|backup|command <command>|console}"
+    echo "    start                Start the minecraft server"
+    echo "    stop                 Stop the minecraft server"
+    echo "    restart              Restart the minecraft server"
+    echo "    status               Print some status information"
+    echo "    backup               Backup the world data"
+    echo "    command <command>    Run the given comman at the minecraft server console"
+    echo "    console              Enter the server console through a screen session"
+    echo "\nCopyright (c) Gordian Edenhofer <gordian.edenhofer@gmail.com>"
+    echo "Modified by Szabolcs Pasztor <szabolcs1992@gmail.com>"
 }
 
 case "$1" in
@@ -198,7 +196,7 @@ case "$1" in
     ;;
 
     *|-h|--help)
-    help
+    script_help
 esac
 
 exit 0
