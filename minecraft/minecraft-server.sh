@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # source /etc/conf.d/minecraft || echo "Could not source /etc/conf.d/minecraft"
 
@@ -151,9 +151,7 @@ server_console() {
 
 # Help function, no arguments required
 script_help() {
-    echo "This script was design to easily control any minecraft server. Quite every parameter for"
-    echo "a given minecraft server derivative can be altered by editing the variables in the"
-    echo "configuration file."
+    echo "This script was design to easily control any minecraft server. Quite every parameter for a given minecraft server derivative can be altered by editing the variables in the configuration file."
     echo "\nUsage: minecraft-server {start|stop|status|backup|command <command>|console}"
     echo "    start                Start the minecraft server"
     echo "    stop                 Stop the minecraft server"
