@@ -1,0 +1,194 @@
+[08:21:28] [Server thread/INFO]: Starting minecraft server version 1.8.9
+[08:21:28] [Server thread/INFO]: Loading properties
+[08:21:28] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_60]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_60]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_60]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_60]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_60]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_60]
+	at ko$2.run(SourceFile:81) [minecraft_server.1.8.9.exe:?]
+[08:21:28] [Server thread/INFO]: Default game type: SURVIVAL
+[08:21:28] [Server thread/INFO]: Generating keypair
+[08:21:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:21:29] [Server thread/INFO]: Using default channel type
+[08:21:29] [Server thread/INFO]: Preparing level "world"
+[08:21:29] [Server thread/INFO]: Preparing start region for level 0
+[08:21:31] [Server thread/INFO]: Preparing spawn area: 0%
+[08:21:32] [Server thread/INFO]: Preparing spawn area: 36%
+[08:21:33] [Server thread/INFO]: Preparing spawn area: 74%
+[08:21:34] [Server thread/INFO]: Done (4.915s)! For help, type "help" or "?"
+[08:32:32] [User Authenticator #1/INFO]: UUID of player Equaian is b1104ef9-4ed7-4111-a1a8-5de1147168c6
+[08:32:32] [Server thread/INFO]: Equaian[/192.168.1.2:54130] logged in with entity id 367 at (130.52808773898124, 71.0, 213.03096646300207)
+[08:32:32] [Server thread/INFO]: Equaian joined the game
+[08:32:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2119ms behind, skipping 42 tick(s)
+[08:41:55] [Server thread/INFO]: Equaian lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[08:41:55] [Server thread/INFO]: Equaian left the game
+[08:42:26] [User Authenticator #2/INFO]: UUID of player Equaian is b1104ef9-4ed7-4111-a1a8-5de1147168c6
+[08:42:26] [Server thread/INFO]: Equaian[/192.168.1.2:61065] logged in with entity id 39460 at (108.69999998807913, 76.0, 285.44969510060236)
+[08:42:26] [Server thread/INFO]: Equaian joined the game
+[08:46:17] [User Authenticator #3/INFO]: UUID of player JJLyar is 1985aad9-e4cb-4e91-a4c8-f26f9535a391
+[08:46:17] [Server thread/INFO]: JJLyar[/10.53.248.3:51097] logged in with entity id 47793 at (94.49229144295775, 5.0, 276.4559130526134)
+[08:46:17] [Server thread/INFO]: JJLyar joined the game
+[08:47:35] [Server thread/WARN]: JJLyar moved too quickly! -103.27134937510776,-77.0,49.64268685630236 (-103.27134937510776, -77.0, 49.64268685630236)
+[08:52:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2883ms behind, skipping 57 tick(s)
+[08:58:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2511ms behind, skipping 50 tick(s)
+[09:01:29] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2010ms behind, skipping 40 tick(s)
+[09:09:38] [Server thread/INFO]: <JJLyar> So just figured out how to connect nether portals. is there a bunch of obsid I can take? or do I hav
+[09:09:53] [Server thread/INFO]: <JJLyar> to mine
+[09:10:16] [Server thread/INFO]: <Equaian> It's a rare commodity right now ... but there are places where we know it exits :)
+[09:10:24] [Server thread/INFO]: <Equaian> mumble?
+[09:10:43] [Server thread/INFO]: <JJLyar> uno momenti
+[09:18:31] [Server thread/WARN]: JJLyar moved wrongly!
+[09:27:14] [Server thread/INFO]: Equaian lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[09:27:14] [Server thread/INFO]: Equaian left the game
+[09:27:55] [User Authenticator #4/INFO]: UUID of player Equaian is b1104ef9-4ed7-4111-a1a8-5de1147168c6
+[09:27:55] [Server thread/INFO]: Equaian[/192.168.1.2:60761] logged in with entity id 213264 at (112.66155838713071, 77.0, 285.7901813644129)
+[09:27:55] [Server thread/INFO]: Equaian joined the game
+[09:29:10] [Server thread/WARN]: Equaian moved wrongly!
+[09:36:00] [Server thread/WARN]: JJLyar moved too quickly! -21.917597968402,-21.0,-12.778711171287455 (-21.917597968402, -21.0, -12.778711171287455)
+[09:36:46] [Server thread/INFO]: JJLyar lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[09:36:46] [Server thread/INFO]: JJLyar left the game
+[09:36:52] [User Authenticator #5/INFO]: UUID of player JJLyar is 1985aad9-e4cb-4e91-a4c8-f26f9535a391
+[09:36:52] [Server thread/INFO]: JJLyar[/10.53.248.3:51243] logged in with entity id 244222 at (42.417597968402, 32.0, 54.68219286134172)
+[09:36:52] [Server thread/INFO]: JJLyar joined the game
+[09:42:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 26201ms behind, skipping 524 tick(s)
+[09:42:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2434ms behind, skipping 48 tick(s)
+[09:42:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6208ms behind, skipping 124 tick(s)
+[09:43:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6426ms behind, skipping 128 tick(s)
+[09:43:15] [Server thread/WARN]: JJLyar moved wrongly!
+[09:43:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3504ms behind, skipping 70 tick(s)
+[09:45:53] [Server thread/WARN]: JJLyar moved wrongly!
+[09:45:58] [Server thread/WARN]: JJLyar moved wrongly!
+[10:00:22] [Server thread/WARN]: JJLyar moved wrongly!
+[10:04:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2426ms behind, skipping 48 tick(s)
+[10:19:07] [Server thread/INFO]: JJLyar tried to swim in lava
+[10:20:41] [Server thread/WARN]: JJLyar moved too quickly! -14.394403967698281,0.001998472213742275,-0.785052782553322 (-14.394403967698281, 0.001998472213742275, -0.785052782553322)
+[10:43:15] [Server thread/INFO]: JJLyar has just earned the achievement [Time to Strike!]
+[10:51:20] [Server thread/INFO]: JJLyar has just earned the achievement [Monster Hunter]
+[11:09:48] [Server thread/INFO]: JJLyar lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[11:09:48] [Server thread/INFO]: JJLyar left the game
+[11:10:06] [User Authenticator #6/INFO]: UUID of player JJLyar is 1985aad9-e4cb-4e91-a4c8-f26f9535a391
+[11:10:06] [Server thread/INFO]: JJLyar[/10.53.248.3:51516] logged in with entity id 582351 at (-375.2784627196569, 11.0, 258.44344836876314)
+[11:10:06] [Server thread/INFO]: JJLyar joined the game
+[11:19:49] [User Authenticator #7/INFO]: UUID of player Nameugone is 416fc4c3-132d-4841-9ab7-348b4973bad2
+[11:19:49] [Server thread/INFO]: Nameugone[/10.53.248.2:54430] logged in with entity id 615462 at (134.69999998807907, 106.875, 278.361299514542)
+[11:19:49] [Server thread/INFO]: Nameugone joined the game
+[11:26:00] [Server thread/WARN]: Nameugone moved wrongly!
+[11:34:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2010ms behind, skipping 40 tick(s)
+[11:41:27] [Server thread/INFO]: JJLyar was blown up by Creeper
+[11:41:56] [Server thread/INFO]: Nameugone lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[11:41:56] [Server thread/INFO]: Nameugone left the game
+[11:42:02] [User Authenticator #8/INFO]: UUID of player Nameugone is 416fc4c3-132d-4841-9ab7-348b4973bad2
+[11:42:02] [Server thread/INFO]: Nameugone[/10.53.248.2:54925] logged in with entity id 719549 at (178.9670746252199, 79.0, 289.0361672556402)
+[11:42:02] [Server thread/INFO]: Nameugone joined the game
+[11:44:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2488ms behind, skipping 49 tick(s)
+[11:44:45] [Server thread/INFO]: JJLyar lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[11:44:45] [Server thread/INFO]: JJLyar left the game
+[11:44:57] [User Authenticator #9/INFO]: UUID of player JJLyar is 1985aad9-e4cb-4e91-a4c8-f26f9535a391
+[11:44:57] [Server thread/INFO]: JJLyar[/10.53.248.3:51576] logged in with entity id 737153 at (-269.6698646000775, 5.0, 258.7460124665227)
+[11:44:57] [Server thread/INFO]: JJLyar joined the game
+[11:45:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2547ms behind, skipping 50 tick(s)
+[11:45:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3369ms behind, skipping 67 tick(s)
+[11:46:12] [Server thread/WARN]: JJLyar moved too quickly! 99.98613861481306,-9.249187078744683,11.600574584671222 (99.98613861481306, -9.249187078744683, 11.600574584671222)
+[11:46:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2014ms behind, skipping 40 tick(s)
+[11:47:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2394ms behind, skipping 47 tick(s)
+[11:48:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2066ms behind, skipping 41 tick(s)
+[11:48:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6009ms behind, skipping 120 tick(s)
+[11:51:20] [Server thread/INFO]: JJLyar tried to swim in lava
+[11:51:32] [Server thread/INFO]: JJLyar lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[11:51:32] [Server thread/INFO]: JJLyar left the game
+[11:57:03] [Server thread/INFO]: <Nameugone> the quest through the nether begins!
+[12:09:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2802ms behind, skipping 56 tick(s)
+[12:11:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2176ms behind, skipping 43 tick(s)
+[12:11:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2017ms behind, skipping 40 tick(s)
+[12:12:23] [Server thread/INFO]: Nameugone lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[12:12:23] [Server thread/INFO]: Nameugone left the game
+[12:12:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2112ms behind, skipping 42 tick(s)
+[12:18:10] [User Authenticator #10/INFO]: UUID of player Nameugone is 416fc4c3-132d-4841-9ab7-348b4973bad2
+[12:18:10] [Server thread/INFO]: Nameugone[/10.53.248.2:55839] logged in with entity id 883266 at (-148.30541348718378, 53.0, -187.5717878970264)
+[12:18:10] [Server thread/INFO]: Nameugone joined the game
+[12:30:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3115ms behind, skipping 62 tick(s)
+[12:31:03] [Server thread/INFO]: Equaian lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[12:31:03] [Server thread/INFO]: Equaian left the game
+[12:31:31] [Server thread/WARN]: Nameugone moved wrongly!
+[12:34:04] [Server thread/INFO]: <Nameugone> brb
+[12:34:05] [Server thread/INFO]: Nameugone lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[12:34:05] [Server thread/INFO]: Nameugone left the game
+[12:35:49] [User Authenticator #11/INFO]: UUID of player Nameugone is 416fc4c3-132d-4841-9ab7-348b4973bad2
+[12:35:49] [Server thread/INFO]: Nameugone[/10.53.248.2:56241] logged in with entity id 945978 at (134.69999998807907, 106.875, 279.5538254436683)
+[12:35:49] [Server thread/INFO]: Nameugone joined the game
+[12:41:26] [User Authenticator #12/INFO]: UUID of player Equaian is b1104ef9-4ed7-4111-a1a8-5de1147168c6
+[12:41:26] [Server thread/INFO]: Equaian[/192.168.1.2:65279] logged in with entity id 979152 at (226.98195642456028, 78.0, 370.22307533591515)
+[12:41:26] [Server thread/INFO]: Equaian joined the game
+[12:41:31] [Server thread/INFO]: <Nameugone> HEY
+[12:41:34] [Server thread/INFO]: <Nameugone> acaps
+[12:41:36] [Server thread/INFO]: <Nameugone> caps***
+[12:41:41] [Server thread/INFO]: <Equaian> me se back!
+[12:41:58] [Server thread/INFO]: <Nameugone> Im leaving Gia City btw
+[12:54:39] [Server thread/INFO]: <Nameugone> ya?
+[12:54:50] [Server thread/INFO]: <Equaian> hi
+[12:55:05] [Server thread/INFO]: <Nameugone> still brining my stuff to and fro
+[13:01:06] [Server thread/INFO]: <Nameugone> T hey see me laggging, and rolling
+[13:07:27] [Server thread/WARN]: Equaian moved wrongly!
+[13:07:27] [Server thread/INFO]: <Nameugone> brb I take pups out
+[13:07:30] [Server thread/INFO]: Nameugone lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[13:07:30] [Server thread/INFO]: Nameugone left the game
+[13:07:31] [Server thread/INFO]: <Equaian> k
+[13:24:19] [User Authenticator #13/INFO]: UUID of player Nameugone is 416fc4c3-132d-4841-9ab7-348b4973bad2
+[13:24:19] [Server thread/INFO]: Nameugone[/10.53.248.2:57330] logged in with entity id 1271024 at (117.15256957631543, 36.0, 1051.2826342579845)
+[13:24:19] [Server thread/INFO]: Nameugone joined the game
+[13:24:26] [Server thread/INFO]: <Nameugone> Eyyy
+[13:24:32] [Server thread/INFO]: <Nameugone> Wheres ryan?
+[13:24:39] [Server thread/INFO]: <Equaian> going to take a shower
+[13:24:44] [Server thread/INFO]: <Nameugone> ah
+[13:24:51] [Server thread/INFO]: <Equaian> We're leaving to start our new year celebration in a half hour
+[13:25:10] [Server thread/INFO]: <Equaian> Gunna water his research plants, buy some finger foods, pick up a friend,
+[13:25:23] [Server thread/INFO]: <Nameugone> oooo
+[13:25:33] [Server thread/INFO]: <Equaian> then go see star wars (AGAIN!), eat at a nice restaurant, then play games at our
+[13:25:34] [Server thread/INFO]: <Nameugone> Sounds fun
+[13:25:42] [Server thread/INFO]: <Equaian> house with friends until midnight :)
+[13:32:26] [Server thread/INFO]: <Nameugone> is it day or night?
+[13:32:30] [Server thread/INFO]: <Equaian> night
+[13:32:34] [Server thread/INFO]: <Nameugone> k
+[13:32:40] [Server thread/INFO]: <Equaian> I have to shower I'm heading out
+[13:32:47] [Server thread/INFO]: <Nameugone> alright have fun
+[13:32:47] [Server thread/INFO]: <Equaian> love you
+[13:32:53] [Server thread/INFO]: <Nameugone> love you too!
+[13:35:08] [Server thread/INFO]: Equaian lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[13:35:08] [Server thread/INFO]: Equaian left the game
+[13:48:57] [Server thread/WARN]: Nameugone moved wrongly!
+[13:56:40] [Server thread/INFO]: Nameugone lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[13:56:40] [Server thread/INFO]: Nameugone left the game
+[14:05:18] [User Authenticator #14/INFO]: UUID of player Nameugone is 416fc4c3-132d-4841-9ab7-348b4973bad2
+[14:05:18] [Server thread/INFO]: Nameugone[/10.53.248.2:58283] logged in with entity id 1372676 at (121.24006341201935, 36.0, 1049.1584162438564)
+[14:05:18] [Server thread/INFO]: Nameugone joined the game
+[14:14:07] [Server thread/WARN]: Nameugone moved wrongly!
+[14:22:19] [Server thread/WARN]: Nameugone moved wrongly!
+[14:32:37] [Server thread/INFO]: Nameugone lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[14:32:37] [Server thread/INFO]: Nameugone left the game
+[14:33:13] [User Authenticator #15/INFO]: UUID of player Nameugone is 416fc4c3-132d-4841-9ab7-348b4973bad2
+[14:33:13] [Server thread/INFO]: Nameugone[/10.53.248.2:59085] logged in with entity id 1401295 at (117.99255491335882, 36.0, 1050.2153520166094)
+[14:33:13] [Server thread/INFO]: Nameugone joined the game
+[14:37:39] [Server thread/INFO]: <Nameugone> 120
+[14:49:30] [Server thread/INFO]: Nameugone lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[14:49:30] [Server thread/INFO]: Nameugone left the game
+[14:49:43] [User Authenticator #16/INFO]: UUID of player Nameugone is 416fc4c3-132d-4841-9ab7-348b4973bad2
+[14:49:43] [Server thread/INFO]: Nameugone[/10.53.248.2:59471] logged in with entity id 1445008 at (126.16105711866359, 36.0, 1050.3000696227286)
+[14:49:43] [Server thread/INFO]: Nameugone joined the game
+[14:53:21] [Server thread/WARN]: Nameugone moved wrongly!
+[14:54:39] [Server thread/INFO]: Nameugone lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[14:54:39] [Server thread/INFO]: Nameugone left the game
+[14:58:08] [User Authenticator #17/INFO]: UUID of player Nameugone is 416fc4c3-132d-4841-9ab7-348b4973bad2
+[14:58:08] [Server thread/INFO]: Nameugone[/10.53.248.2:59768] logged in with entity id 1451776 at (161.88943645110803, 36.0, 1048.161145061163)
+[14:58:08] [Server thread/INFO]: Nameugone joined the game
+[14:58:35] [Server thread/WARN]: Nameugone moved too quickly! 23.349276142682555,1.0,-0.22890607761269166 (23.349276142682555, 1.0, -0.22890607761269166)
+[15:03:30] [Server thread/WARN]: Nameugone moved wrongly!
+[15:21:47] [Server thread/INFO]: Nameugone lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[15:21:47] [Server thread/INFO]: Nameugone left the game

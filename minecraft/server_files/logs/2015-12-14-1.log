@@ -1,0 +1,435 @@
+[16:46:40] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[16:46:40] [Server thread/INFO]: Loading properties
+[16:46:40] [Server thread/INFO]: Default game type: SURVIVAL
+[16:46:40] [Server thread/INFO]: Generating keypair
+[16:46:40] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_60]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_60]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_60]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_60]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_60]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_60]
+	at ko$2.run(SourceFile:81) [minecraft_server.1.8.8.exe:?]
+[16:46:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:46:40] [Server thread/INFO]: Using default channel type
+[16:46:41] [Server thread/INFO]: Preparing level "world"
+[16:46:41] [Server thread/INFO]: Preparing start region for level 0
+[16:46:42] [Server thread/INFO]: Preparing spawn area: 0%
+[16:46:43] [Server thread/INFO]: Preparing spawn area: 36%
+[16:46:44] [Server thread/INFO]: Preparing spawn area: 74%
+[16:46:44] [Server thread/INFO]: Done (3.712s)! For help, type "help" or "?"
+[16:49:24] [User Authenticator #1/INFO]: UUID of player KuroiRyuu8 is e3b90180-fe66-4dbf-9c48-adc62d319173
+[16:49:24] [Server thread/INFO]: KuroiRyuu8[/192.168.1.3:58796] logged in with entity id 219 at (-710.810652720755, 6.0, -754.5004810797391)
+[16:49:24] [Server thread/INFO]: KuroiRyuu8 joined the game
+[17:06:32] [User Authenticator #2/INFO]: UUID of player Nameugone is 416fc4c3-132d-4841-9ab7-348b4973bad2
+[17:06:32] [Server thread/INFO]: Nameugone[/10.53.248.5:51907] logged in with entity id 29903 at (1925.5, 67.00199847221374, 1405.5)
+[17:06:32] [Server thread/INFO]: Nameugone joined the game
+[17:06:39] [Server thread/INFO]: <Nameugone> HEY RYN
+[17:06:44] [Server thread/INFO]: <Nameugone> hey ryan*
+[17:06:44] [Server thread/INFO]: <KuroiRyuu8> Hello Mate
+[17:06:52] [Server thread/WARN]: Nameugone moved too quickly! 6.320486576903477,-1.9980015277862577,7.906281331951959 (6.320486576903477, -1.9980015277862577, 7.906281331951959)
+[17:07:34] [Server thread/INFO]: <KuroiRyuu8> How're you?
+[17:07:45] [Server thread/INFO]: <Nameugone> meh
+[17:07:46] [Server thread/INFO]: <Nameugone> u?
+[17:07:59] [Server thread/INFO]: <KuroiRyuu8> I'm doing alright
+[17:09:04] [Server thread/INFO]: <Nameugone> I have decided to never ride a horse on this server cuz it lagged so damn hard last time
+[17:09:10] [Server thread/INFO]: <Nameugone> xD
+[17:09:29] [Server thread/INFO]: <KuroiRyuu8> I see
+[17:09:51] [Server thread/INFO]: <KuroiRyuu8> Hopefully we can get it on the google server so hopefully we won't have those problems.
+[17:10:04] [Server thread/INFO]: <Nameugone> google server?
+[17:12:26] [Server thread/INFO]: <Nameugone> U guys should make rabbit stew more often
+[17:12:38] [Server thread/INFO]: <Nameugone> replenishes 5 corn dog things
+[17:12:41] [Server thread/INFO]: <KuroiRyuu8> It's not effiecent and takes too much time
+[17:13:00] [Server thread/INFO]: <KuroiRyuu8> rabbits don't always drop haunches and the soup takes an entire inventory space.
+[17:13:12] [Server thread/INFO]: <Nameugone> y u dont make it all at once
+[17:13:27] [Server thread/INFO]: <KuroiRyuu8> Make what all at once?
+[17:13:32] [Server thread/INFO]: <Nameugone> keep the ingrediants on hand
+[17:13:41] [Server thread/INFO]: <Nameugone> not the product
+[17:14:03] [Server thread/INFO]: <KuroiRyuu8> That still takes up 5 inventory stacks
+[17:14:06] [Server thread/INFO]: <Nameugone> walking across thge path sucks
+[17:14:19] [Server thread/INFO]: <KuroiRyuu8> What do you mean?
+[17:14:36] [Server thread/INFO]: <Nameugone> hang on
+[17:15:39] [Server thread/INFO]: <Nameugone> well that was close
+[17:16:07] [Server thread/INFO]: <Nameugone> I couldnt run across the path thing to get back to the town, and nearly died
+[17:16:17] [Server thread/INFO]: <KuroiRyuu8> Why?
+[17:16:21] [Server thread/INFO]: <Nameugone> no food
+[17:16:25] [Server thread/INFO]: <KuroiRyuu8> Ah
+[17:16:27] [Server thread/INFO]: <Nameugone> oh and mobs
+[17:16:37] [Server thread/INFO]: <Nameugone> but i has carrots now
+[17:16:52] [Server thread/INFO]: <Nameugone> carrots protect me O>O
+[17:18:29] [Server thread/INFO]: <Nameugone> u guys should look for wolves
+[17:18:42] [Server thread/INFO]: <KuroiRyuu8> I already have 10 of them
+[17:18:47] [Server thread/INFO]: <Nameugone> waaw
+[17:21:18] [Server thread/INFO]: <Nameugone> do u guys have an automated cocoa farm?
+[17:21:26] [Server thread/INFO]: <KuroiRyuu8> yes
+[17:21:29] [Server thread/INFO]: <Nameugone> noice
+[17:21:59] [Server thread/INFO]: <Nameugone> with hoppers 2/
+[17:22:10] [Server thread/INFO]: <KuroiRyuu8> No
+[17:22:27] [Server thread/INFO]: <KuroiRyuu8> Easy enough to do just haven't
+[17:22:36] [Server thread/INFO]: <Nameugone> mmm
+[17:24:27] [Server thread/INFO]: <KuroiRyuu8> but really the way the one I made is, is that it just goes straight into your inventory
+[17:24:58] [Server thread/INFO]: <Nameugone> I know of a lazier version ;)
+[17:25:18] [Server thread/INFO]: <Nameugone> which also can produce a full chest easily
+[17:25:42] [Server thread/INFO]: <KuroiRyuu8> yeah but you don't normally use that much cocoa, so I figured it wasn't necessary
+[17:25:59] [Server thread/INFO]: <Nameugone> true
+[17:26:35] [Server thread/INFO]: <Nameugone> I remember a server that used cookies as currency, was pretty awesome and funny
+[17:27:04] [Server thread/INFO]: <KuroiRyuu8> Yeah if you had people that were exchanging services and items thats a cool idea.
+[17:27:32] [Server thread/INFO]: <Nameugone> wanna make cookies a currency? xD
+[17:27:42] [Server thread/INFO]: <Nameugone> jk if u have a farm to easy to do
+[17:27:50] [Server thread/INFO]: <KuroiRyuu8> yeah not really worth it.
+[17:28:04] [Server thread/INFO]: <KuroiRyuu8> more so if you are trying to theme a server and you make most blocks unbreakable.
+[17:28:55] [Server thread/INFO]: <Nameugone> hmm. Well in the server it was a faction server, and it wasnt like 30 cookies for a diamond, more
+[17:28:59] [Server thread/INFO]: <Nameugone> like 30 mill
+[17:29:20] [Server thread/INFO]: <KuroiRyuu8> hmmm, that's kinda strange though as you can't carry 30mil
+[17:29:39] [Server thread/INFO]: <Nameugone> they had a plugin that checked the amount of cookies in the chests chosen and then took it
+[17:29:52] [Server thread/INFO]: <Nameugone> where do seeds go?
+[17:29:58] [Server thread/INFO]: <Nameugone> oh
+[17:30:03] [Server thread/INFO]: <KuroiRyuu8> non-edible crops
+[17:30:16] [Server thread/INFO]: <KuroiRyuu8> but you are better off going to chicken farm and giving them to chickens.
+[17:30:22] [Server thread/INFO]: <Nameugone> wheres le chicken farm? o.O
+[17:30:22] [Server thread/INFO]: <KuroiRyuu8> we have so many
+[17:30:33] [Server thread/INFO]: <KuroiRyuu8> other side of train station next to hores
+[17:31:00] [Server thread/INFO]: <Nameugone> wheres it go
+[17:31:27] [Server thread/INFO]: <KuroiRyuu8> To nether gate, village, lava pools, ocean monument, ocean
+[17:31:36] [Server thread/INFO]: <Nameugone> whoa
+[17:32:16] [Server thread/INFO]: <Nameugone> i has to go my friend
+[17:32:24] [Server thread/INFO]: <Nameugone> sorry xFD
+[17:32:31] [Server thread/INFO]: <KuroiRyuu8> nah worries. ciya
+[17:32:34] [Server thread/INFO]: Nameugone lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[17:32:34] [Server thread/INFO]: Nameugone left the game
+[17:50:56] [Server thread/INFO]: KuroiRyuu8 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[17:50:56] [Server thread/INFO]: KuroiRyuu8 left the game
+[17:51:28] [User Authenticator #3/INFO]: UUID of player KuroiRyuu8 is e3b90180-fe66-4dbf-9c48-adc62d319173
+[17:51:28] [Server thread/INFO]: KuroiRyuu8[/192.168.1.3:53131] logged in with entity id 202443 at (116.44673673159286, 77.0, 284.83550831755196)
+[17:51:28] [Server thread/INFO]: KuroiRyuu8 joined the game
+[17:58:58] [User Authenticator #4/INFO]: UUID of player Nameugone is 416fc4c3-132d-4841-9ab7-348b4973bad2
+[17:58:58] [Server thread/INFO]: Nameugone[/10.53.248.5:52870] logged in with entity id 238026 at (101.61495265893296, 5.0, 254.42942774139857)
+[17:58:58] [Server thread/INFO]: Nameugone joined the game
+[18:02:28] [Server thread/INFO]: <Nameugone> i use type again
+[18:02:54] [Server thread/INFO]: <Nameugone> but my hand hurts so i will take a brake from typing and will tell u it later
+[18:03:03] [Server thread/INFO]: <Nameugone> break*
+[18:03:04] [Server thread/INFO]: <KuroiRyuu8> yeah that's fine
+[18:03:12] [Server thread/INFO]: <Nameugone> Im smart i swear!
+[18:03:30] [Server thread/INFO]: <Nameugone> wheres the brewing station?
+[18:03:37] [Server thread/INFO]: <KuroiRyuu8> In the storehouse.
+[18:03:51] [Server thread/INFO]: <KuroiRyuu8> in the back room on the first floor
+[18:03:55] [Server thread/INFO]: <KuroiRyuu8> I've labeled them now
+[18:03:57] [Server thread/INFO]: <Nameugone> wait just one?
+[18:03:59] [Server thread/INFO]: <KuroiRyuu8> Alchemy room
+[18:04:01] [Server thread/INFO]: <Nameugone> hmmmm
+[18:04:21] [Server thread/INFO]: <Nameugone> I will lay claim to the title "The Alchemist
+[18:04:28] [Server thread/INFO]: <Nameugone> "
+[18:04:41] [Server thread/INFO]: <KuroiRyuu8> okey dokey
+[18:04:53] [Server thread/INFO]: <Nameugone> Also u can talk cuz i hear u fine
+[18:05:02] [Server thread/INFO]: <KuroiRyuu8> okay
+[18:05:11] [Server thread/INFO]: <KuroiRyuu8> I like typing though.
+[18:05:14] [Server thread/INFO]: <KuroiRyuu8> I'm so used to it.
+[18:05:16] [Server thread/INFO]: <KuroiRyuu8> lol
+[18:07:02] [Server thread/INFO]: <Nameugone> wheres ur guys nether wart farm
+[18:07:09] [Server thread/INFO]: <KuroiRyuu8> In the nether
+[18:07:15] [Server thread/INFO]: <Nameugone> ha
+[18:07:26] [Server thread/INFO]: <Nameugone> sorry i find that funny xD
+[18:07:27] [Server thread/INFO]: <KuroiRyuu8> Should be right there in the nether
+[18:07:42] [Server thread/INFO]: <KuroiRyuu8> like as you enter the gate
+[18:07:49] [Server thread/INFO]: <Nameugone> ya i gets it :D
+[18:12:23] [Server thread/INFO]: <Nameugone> would u mind if I used ur iron to make me a full set of armor
+[18:12:30] [Server thread/INFO]: <KuroiRyuu8> we don't have enough.
+[18:12:43] [Server thread/INFO]: <KuroiRyuu8> and if we do it isn't much so you'll have to find your own sorry.
+[18:12:44] [Server thread/INFO]: <Nameugone> what if i smelt some? o.O
+[18:12:51] [Server thread/INFO]: <KuroiRyuu8> we don't have any to smelt either
+[18:12:54] [Server thread/INFO]: <KuroiRyuu8> I used it all
+[18:12:59] [Server thread/INFO]: <Nameugone> u dont?
+[18:13:03] [Server thread/INFO]: <KuroiRyuu8> yeah
+[18:13:04] [Server thread/INFO]: <Nameugone> oh what for xD
+[18:13:09] [Server thread/INFO]: <KuroiRyuu8> buckets
+[18:13:12] [Server thread/INFO]: <Nameugone> mm
+[18:13:28] [Server thread/INFO]: <Nameugone> also you do, but if I were u would have nearly nun
+[18:13:41] [Server thread/INFO]: <KuroiRyuu8> I said we do have some
+[18:13:45] [Server thread/INFO]: <KuroiRyuu8> but only like 30 or so
+[18:13:54] [Server thread/INFO]: <Nameugone> No i mean to make a full set
+[18:14:00] [Server thread/INFO]: <KuroiRyuu8> Not enough to give away in my opinion
+[18:14:00] [Server thread/INFO]: <Nameugone> takes 24 iron
+[18:14:03] [Server thread/INFO]: <KuroiRyuu8> yeah so no
+[18:14:05] [Server thread/INFO]: <Nameugone> I agre
+[18:14:26] [Server thread/INFO]: <KuroiRyuu8> there are plenty of places close to us though if you want to get more iron.
+[18:14:28] [Server thread/INFO]: <Nameugone> what about leather if u have enough can I make myself one
+[18:14:36] [Server thread/INFO]: <KuroiRyuu8> No leather either
+[18:14:39] [Server thread/INFO]: <Nameugone> hmm
+[18:14:42] [Server thread/INFO]: <Nameugone> to cows!
+[18:14:49] [Server thread/INFO]: KuroiRyuu8 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[18:14:49] [Server thread/INFO]: KuroiRyuu8 left the game
+[18:15:19] [User Authenticator #5/INFO]: UUID of player KuroiRyuu8 is e3b90180-fe66-4dbf-9c48-adc62d319173
+[18:15:19] [Server thread/INFO]: KuroiRyuu8[/192.168.1.3:53350] logged in with entity id 294609 at (94.36148050332625, 5.0, 57.38262126215701)
+[18:15:19] [Server thread/INFO]: KuroiRyuu8 joined the game
+[18:15:28] [Server thread/INFO]: <KuroiRyuu8> sorry graphics driver failed.
+[18:15:38] [Server thread/INFO]: <KuroiRyuu8> we have some leather but need it to make books as it's fairly hard to get
+[18:15:49] [Server thread/INFO]: <Nameugone> it is?
+[18:15:56] [Server thread/INFO]: <KuroiRyuu8> If you breed the cows you are welcome to kill one for each one you breed and try to get leather
+[18:15:58] [Server thread/INFO]: <Nameugone> u have a cow farm yes?
+[18:15:59] [Server thread/INFO]: <KuroiRyuu8> that way
+[18:16:01] [Server thread/INFO]: <KuroiRyuu8> yeah
+[18:16:16] [Server thread/INFO]: <Nameugone> it shouldnt be hard to make books then...
+[18:16:24] [Server thread/INFO]: <Nameugone> hmmm
+[18:16:27] [Server thread/INFO]: <KuroiRyuu8> It takes one leather for one book.
+[18:16:32] [Server thread/INFO]: <Nameugone> ah
+[18:16:33] [Server thread/INFO]: <KuroiRyuu8> quite costly
+[18:16:48] [Server thread/INFO]: <Nameugone> used to take 3
+[18:16:51] [Server thread/INFO]: <Nameugone> those days sucked
+[18:16:58] [Server thread/INFO]: <KuroiRyuu8> true
+[18:17:06] [Server thread/INFO]: <KuroiRyuu8> still sucks now though
+[18:17:24] [Server thread/INFO]: <Nameugone> mmm Cuz i played in those days I dont think so xD
+[18:17:25] [Server thread/INFO]: <KuroiRyuu8> especially since you don't always get leather from cows
+[18:17:37] [Server thread/INFO]: <KuroiRyuu8> you don't think so what?
+[18:17:52] [Server thread/INFO]: <Nameugone> that its as hard,
+[18:18:06] [Server thread/INFO]: <KuroiRyuu8> I didn't way it is as hard. I said it still sucks to make books.
+[18:18:13] [Server thread/INFO]: <Nameugone> Oh ya
+[18:18:43] [Server thread/INFO]: <Nameugone> I think cuz I have seen all the shitty recipes and days of mc I dont think it sucks as much, but as
+[18:18:54] [Server thread/INFO]: <Nameugone> a newer player I could see that
+[18:18:56] [Server thread/INFO]: <KuroiRyuu8> I have as well.
+[18:19:04] [Server thread/INFO]: <KuroiRyuu8> I've played this before you have
+[18:19:07] [Server thread/INFO]: <Nameugone> oh rly>
+[18:19:10] [Server thread/INFO]: <KuroiRyuu8> I've played this since pre pre alpha
+[18:19:14] [Server thread/INFO]: <Nameugone> damn
+[18:19:18] [Server thread/INFO]: <Nameugone> u mega vetran
+[18:19:22] [Server thread/INFO]: <KuroiRyuu8> when notch was still selling it for like 10 bucks
+[18:19:34] [Server thread/INFO]: <Nameugone> well, I still think it doesnt suck :P
+[18:19:44] [Server thread/INFO]: <KuroiRyuu8> That's fine. I still do. lol
+[18:19:48] [Server thread/INFO]: <Nameugone> lol
+[18:20:03] [Server thread/INFO]: <KuroiRyuu8> It took me all day irl to make a set of bookcases for an enchanting table.
+[18:20:08] [Server thread/INFO]: <KuroiRyuu8> and it's still not finished.
+[18:21:17] [Server thread/INFO]: <Nameugone> the cows are having great loud cow sex
+[18:21:29] [Server thread/INFO]: <KuroiRyuu8> yeah that's what happens when you give em what they want
+[18:21:31] [Server thread/INFO]: <KuroiRyuu8> LMAO
+[18:21:35] [Server thread/INFO]: <Nameugone> LOL
+[18:21:39] [Server thread/INFO]: <Nameugone> nice
+[18:22:17] [Server thread/INFO]: <Nameugone> didnt they used to call raw beef venison?
+[18:22:28] [Server thread/INFO]: <KuroiRyuu8> Not that I'm aware of.
+[18:22:29] [Server thread/INFO]: Nameugone has just earned the achievement [Cow Tipper]
+[18:23:30] [Server thread/INFO]: <Nameugone> why do the cows have so much space??
+[18:23:44] [Server thread/INFO]: <KuroiRyuu8> So we can breed them a lot.
+[18:23:53] [Server thread/INFO]: <KuroiRyuu8> And so they don't camp the gate to try and get out.
+[18:24:01] [Server thread/INFO]: <Nameugone> brb
+[18:24:03] [Server thread/INFO]: <KuroiRyuu8> If you don't give them enough space they try to get out and it's annoying
+[18:24:09] [Server thread/INFO]: <KuroiRyuu8> k
+[18:24:59] [Server thread/INFO]: <Nameugone> it'd be cool if u guys had an armor stand
+[18:25:18] [Server thread/INFO]: <KuroiRyuu8> Eventually, right now we are focused on making the infrastructure
+[18:25:24] [Server thread/INFO]: <KuroiRyuu8> Decorating comes laste
+[18:25:27] [Server thread/INFO]: <KuroiRyuu8> Last*
+[18:25:32] [Server thread/INFO]: <Nameugone> how did u get sponge??
+[18:25:38] [Server thread/INFO]: <KuroiRyuu8> From ocean monument
+[18:25:44] [Server thread/INFO]: <Nameugone> woooooww
+[18:25:50] [Server thread/INFO]: <Nameugone> u guys should dry it
+[18:26:00] [Server thread/INFO]: <Nameugone> so u can use it ;)
+[18:27:02] [Server thread/INFO]: <KuroiRyuu8> well don't need to right now
+[18:27:07] [Server thread/INFO]: <Nameugone> true
+[18:27:18] [Server thread/INFO]: <KuroiRyuu8> Only need to if you want to soak up water
+[18:27:20] [Server thread/INFO]: <Nameugone> I was so happy when they updated
+[18:27:40] [Server thread/INFO]: <KuroiRyuu8> I want them to release 1.9
+[18:27:47] [Server thread/INFO]: <KuroiRyuu8> I want shields and more banner options
+[18:27:49] [Server thread/INFO]: <Nameugone> god I feel bad for julia though
+[18:27:54] [Server thread/INFO]: <Nameugone> she wont survive
+[18:28:02] [Server thread/INFO]: <Nameugone> xd
+[18:28:11] [Server thread/INFO]: <KuroiRyuu8> I think she'll be fine. She'll adapt lol
+[18:28:26] [Server thread/INFO]: <Nameugone> I hate skeles more then creapers in it
+[18:28:28] [Server thread/INFO]: KuroiRyuu8 burned to death
+[18:28:32] [Server thread/INFO]: <Nameugone> u dide
+[18:28:34] [Server thread/INFO]: <Nameugone> died*
+[18:28:54] [Server thread/INFO]: <KuroiRyuu8> yeah find some lava in the stairs I was updating with powerrails
+[18:28:56] [Server thread/INFO]: <KuroiRyuu8> grr
+[18:29:03] [Server thread/INFO]: <KuroiRyuu8> found*
+[18:29:10] [Server thread/INFO]: <Nameugone> I picked up ur shit sorry
+[18:29:20] [Server thread/INFO]: <KuroiRyuu8> please drop it all
+[18:29:20] [Server thread/INFO]: <Nameugone> and I lost my ride....
+[18:29:29] [Server thread/INFO]: <Nameugone> NO
+[18:29:30] [Server thread/INFO]: <Nameugone> :P
+[18:29:56] [Server thread/INFO]: <Nameugone> dere
+[18:30:05] [Server thread/INFO]: <Nameugone> your stuff is NOT where u left it
+[18:30:09] [Server thread/INFO]: KuroiRyuu8 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[18:30:09] [Server thread/INFO]: KuroiRyuu8 left the game
+[18:30:50] [User Authenticator #6/INFO]: UUID of player KuroiRyuu8 is e3b90180-fe66-4dbf-9c48-adc62d319173
+[18:30:50] [Server thread/INFO]: KuroiRyuu8[/192.168.1.3:55439] logged in with entity id 369224 at (94.5, 4.7125, 277.12974140604797)
+[18:30:50] [Server thread/INFO]: KuroiRyuu8 joined the game
+[18:31:17] [Server thread/INFO]: <Nameugone> woops
+[18:31:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3075ms behind, skipping 61 tick(s)
+[18:32:38] [Server thread/INFO]: <Nameugone> theres a pigman back there I think btw
+[18:32:45] [Server thread/INFO]: <KuroiRyuu8> no worries
+[18:32:53] [Server thread/INFO]: <KuroiRyuu8> they don't aggro unless you attack them first
+[18:33:02] [Server thread/INFO]: <Nameugone> uuuhhh
+[18:33:06] [Server thread/INFO]: <Nameugone> I may..
+[18:33:08] [Server thread/INFO]: <Nameugone> have
+[18:33:12] [Server thread/INFO]: <Nameugone> maybe
+[18:33:58] [Server thread/INFO]: KuroiRyuu8 burned to death
+[18:34:01] [Server thread/INFO]: <KuroiRyuu8> man lava
+[18:34:02] [Server thread/INFO]: <Nameugone> ha
+[18:34:07] [Server thread/INFO]: <Nameugone> make fire resitance pot
+[18:35:11] [Server thread/INFO]: <Nameugone> damn
+[18:35:20] [Server thread/INFO]: <KuroiRyuu8> ?
+[18:35:28] [Server thread/INFO]: <Nameugone> forgot snowballs
+[18:35:31] [Server thread/INFO]: <KuroiRyuu8> for what?
+[18:35:39] [Server thread/INFO]: <Nameugone> blazew
+[18:35:43] [Server thread/INFO]: <KuroiRyuu8> ah
+[18:35:44] [Server thread/INFO]: <KuroiRyuu8> yeah
+[18:35:46] [Server thread/INFO]: <Nameugone> shit
+[18:35:47] [Server thread/INFO]: <Nameugone> shit
+[18:35:48] [Server thread/INFO]: <Nameugone> shit
+[18:36:10] [Server thread/INFO]: <Nameugone> fuck that was close
+[18:37:03] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2368ms behind, skipping 47 tick(s)
+[18:37:24] [Server thread/INFO]: <Nameugone> damnit...
+[18:37:35] [Server thread/INFO]: <Nameugone> phew!
+[18:39:20] [Server thread/WARN]: Nameugone moved wrongly!
+[18:39:21] [Server thread/WARN]: Nameugone moved wrongly!
+[18:39:21] [Server thread/WARN]: Nameugone moved wrongly!
+[18:39:25] [Server thread/WARN]: Nameugone moved wrongly!
+[18:39:26] [Server thread/WARN]: Nameugone moved wrongly!
+[18:43:54] [Server thread/INFO]: <Nameugone> i love infinite snow
+[18:44:13] [Server thread/INFO]: <KuroiRyuu8> you could make a snow golem in a pen and then always get snow as well
+[18:44:24] [Server thread/INFO]: <Nameugone> what i just did xd
+[18:44:28] [Server thread/INFO]: <KuroiRyuu8> ah gotcha
+[18:44:47] [Server thread/INFO]: <Nameugone> all this to be the alchemist :D
+[18:47:49] [Server thread/INFO]: <Nameugone> i guys have almost spent 16580 minutes on this world or the near equivelant of 11.5 full days
+[18:47:59] [Server thread/INFO]: <Nameugone> u*
+[18:48:31] [Server thread/WARN]: Nameugone moved too quickly! 11.75538851917741,0.0,-1.1024863587194886 (11.75538851917741, 0.0, -1.1024863587194886)
+[18:49:02] [Server thread/INFO]: <Nameugone> wanna know how I know?
+[18:49:20] [Server thread/INFO]: <KuroiRyuu8> How?
+[18:49:30] [Server thread/INFO]: <Nameugone> local difficulty
+[18:50:13] [Server thread/INFO]: <Nameugone> sorry if I seem cocky
+[18:50:45] [Server thread/INFO]: <KuroiRyuu8> Local difficulty changes depending on biome though.
+[18:50:58] [Server thread/INFO]: <KuroiRyuu8> I've been in an area where the local difficulty are 1.06 not 1.03
+[18:51:07] [Server thread/INFO]: <Nameugone> ya but the days
+[18:52:00] [Server thread/INFO]: Nameugone was fireballed by Blaze
+[18:52:07] [Server thread/INFO]: <Nameugone> damn
+[18:52:37] [Server thread/INFO]: <Nameugone> u guys have 829 days in that area, seeing how most of the time was spent there thats about all of
+[18:52:40] [Server thread/INFO]: <Nameugone> the time
+[18:52:46] [Server thread/INFO]: <Nameugone> motherfucker....
+[18:52:59] [Server thread/INFO]: <Nameugone> back at the damn pony house
+[18:55:55] [Server thread/INFO]: <Nameugone> fucking a...
+[18:55:58] [Server thread/INFO]: Nameugone was shot by Skeleton
+[18:56:07] [Server thread/INFO]: <Nameugone> take 3
+[18:56:16] [Server thread/INFO]: <KuroiRyuu8> bummer
+[18:56:24] [Server thread/WARN]: Nameugone moved too quickly! 28.38779193184132,2.0019984722137423,8.03720664691491 (28.38779193184132, 2.0019984722137423, 8.03720664691491)
+[18:57:23] [Server thread/INFO]: <KuroiRyuu8> Hey, gonna make food. Do your thing, I'm keeping the server on.
+[18:59:09] [Server thread/INFO]: <Nameugone> k
+[19:12:50] [Server thread/INFO]: Nameugone lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[19:12:50] [Server thread/INFO]: Nameugone left the game
+[19:14:10] [User Authenticator #7/INFO]: UUID of player Nameugone is 416fc4c3-132d-4841-9ab7-348b4973bad2
+[19:14:10] [Server thread/INFO]: Nameugone[/10.53.248.5:54738] logged in with entity id 508025 at (100.30000001192093, 77.0, 299.39542240868997)
+[19:14:10] [Server thread/INFO]: Nameugone joined the game
+[19:14:14] [Server thread/INFO]: <Nameugone> ey u back
+[19:23:39] [Server thread/INFO]: Nameugone lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[19:23:39] [Server thread/INFO]: Nameugone left the game
+[19:23:43] [User Authenticator #8/INFO]: UUID of player Nameugone is 416fc4c3-132d-4841-9ab7-348b4973bad2
+[19:23:43] [Server thread/INFO]: Nameugone[/10.53.248.5:54936] logged in with entity id 524669 at (99.5, 5.0, 258.8592119938263)
+[19:23:43] [Server thread/INFO]: Nameugone joined the game
+[19:31:08] [Server thread/INFO]: <KuroiRyuu8> back
+[19:31:10] [Server thread/INFO]: <Nameugone> k
+[19:31:27] [Server thread/INFO]: <Nameugone> thers like no soul samd...
+[19:31:45] [Server thread/INFO]: <KuroiRyuu8> did you follow the road to the nether fortress?
+[19:31:53] [Server thread/INFO]: <Nameugone> sor ta
+[19:33:35] [Server thread/INFO]: <Nameugone> now definitly no
+[19:34:14] [Server thread/INFO]: <Nameugone> I just don t wanna get lost
+[19:34:20] [Server thread/INFO]: <KuroiRyuu8> yewah
+[19:34:22] [Server thread/INFO]: <KuroiRyuu8> yeah*
+[19:34:36] [Server thread/INFO]: <Nameugone> keeping a mental memory of my path
+[19:36:29] [Server thread/INFO]: <Nameugone> damnit
+[19:37:28] [Server thread/INFO]: <Nameugone> \
+[19:37:30] [Server thread/INFO]: <Nameugone> phew
+[19:37:40] [Server thread/INFO]: <Nameugone> how much soul sand yall got?
+[19:37:44] [Server thread/INFO]: <KuroiRyuu8> nadda
+[19:37:50] [Server thread/INFO]: <Nameugone> damn
+[19:40:14] [Server thread/INFO]: <Nameugone> holy fuck half a heart
+[19:40:27] [Server thread/INFO]: <Nameugone> ooo a new fortress
+[19:41:03] [Server thread/INFO]: <Nameugone> wana see what we can find with me?
+[19:41:22] [Server thread/INFO]: <KuroiRyuu8> I'm still working on the infrastructure.
+[19:41:27] [Server thread/INFO]: <Nameugone> grr
+[19:41:27] [Server thread/INFO]: <KuroiRyuu8> Have fun! =b
+[19:41:28] [Server thread/INFO]: <Nameugone> xD
+[19:41:31] [Server thread/INFO]: <Nameugone> hell no!
+[19:41:33] [Server thread/INFO]: <Nameugone> not alone
+[19:41:37] [Server thread/INFO]: <Nameugone> with no armor
+[19:43:38] [Server thread/INFO]: <Nameugone> well im officially lost
+[19:43:53] [Server thread/INFO]: <KuroiRyuu8> oops
+[19:43:58] [Server thread/INFO]: <Nameugone> bright side
+[19:44:03] [Server thread/INFO]: <Nameugone> found soul sand
+[19:44:11] [Server thread/INFO]: <Nameugone> xD
+[19:44:20] [Server thread/INFO]: <Nameugone> good bye cruel world
+[19:44:25] [Server thread/INFO]: <KuroiRyuu8> why did you want soul sand?
+[19:44:26] [Server thread/INFO]: Nameugone tried to swim in lava
+[19:44:33] [Server thread/INFO]: <Nameugone> nether wart
+[19:44:43] [Server thread/INFO]: <KuroiRyuu8> we have plenty near the gate
+[19:44:52] [Server thread/INFO]: <KuroiRyuu8> you can't grow nether wart in the overworld
+[19:45:05] [Server thread/INFO]: <Nameugone> uuuh ya u can
+[19:45:24] [Server thread/INFO]: <Nameugone> needs to have super little light though
+[19:46:22] [Server thread/INFO]: <KuroiRyuu8> ah they changed that then.
+[19:46:28] [Server thread/INFO]: <KuroiRyuu8> it didn't use to be able to do that.
+[19:46:34] [Server thread/INFO]: <KuroiRyuu8> also it doesn't matter about light level
+[19:46:37] [Server thread/INFO]: <KuroiRyuu8> just read up on it
+[19:46:37] [Server thread/INFO]: <Nameugone> when??
+[19:46:49] [Server thread/INFO]: <Nameugone> I have no memory of that time
+[19:46:51] [Server thread/INFO]: <KuroiRyuu8> A couple updates after they introduced it.
+[19:47:08] [Server thread/INFO]: <Nameugone> hmmm i wonder when was that
+[19:47:09] [Server thread/INFO]: <KuroiRyuu8> I remember this because I tried growing it and it wouldn't and I looked it up and said it won't
+[19:47:56] [Server thread/INFO]: <KuroiRyuu8> update 1.3 is when netherwart could be grown outside
+[19:48:00] [Server thread/INFO]: <KuroiRyuu8> didn't know that
+[19:48:06] [Server thread/INFO]: <KuroiRyuu8> always just assumed it was like it used to be haha
+[19:48:16] [Server thread/INFO]: <Nameugone> ha
+[19:48:21] [Server thread/INFO]: <KuroiRyuu8> well that makes it way easier
+[19:48:28] [Server thread/INFO]: <Nameugone> I never remember warts not being able to do that
+[19:48:38] [Server thread/INFO]: <Nameugone> xD
+[19:52:46] [Server thread/INFO]: Nameugone drowned
+[19:52:51] [Server thread/INFO]: <KuroiRyuu8> oh no
+[19:53:06] [Server thread/INFO]: <Nameugone> did u know warts could've been used to bread chiks?
+[19:53:14] [Server thread/INFO]: <KuroiRyuu8> yeah they used too.
+[19:53:20] [Server thread/INFO]: <Nameugone> I totaly didnt know tha
+[19:54:11] [Server thread/INFO]: Nameugone was blown up by Creeper
+[19:54:19] [Server thread/INFO]: <KuroiRyuu8> holy moley
+[19:54:23] [Server thread/INFO]: <KuroiRyuu8> I'm gonna go eat now
+[19:54:25] [Server thread/INFO]: <KuroiRyuu8> ttyl
+[19:54:27] [Server thread/INFO]: KuroiRyuu8 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[19:54:27] [Server thread/INFO]: KuroiRyuu8 left the game
+[19:54:44] [Server thread/INFO]: <Nameugone> mind if Im move the wart farm?
+[19:54:50] [Server thread/WARN]: Nameugone moved too quickly! -70.98754600984248,-10.0,-33.073295826269714 (-70.98754600984248, -10.0, -33.073295826269714)
+[19:55:15] [Server thread/INFO]: Nameugone lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[19:55:15] [Server thread/INFO]: Nameugone left the game
+[21:27:35] [Server thread/INFO]: Stopping the server
+[21:27:35] [Server thread/INFO]: Stopping server
+[21:27:35] [Server thread/INFO]: Saving players
+[21:27:35] [Server thread/INFO]: Saving worlds
+[21:27:35] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[21:27:36] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[21:27:36] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[21:27:36] [Server Shutdown Thread/INFO]: Stopping server
+[21:27:36] [Server Shutdown Thread/INFO]: Saving players
+[21:27:36] [Server Shutdown Thread/INFO]: Saving worlds
+[21:27:36] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/Overworld
+[19:11:43] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[19:11:43] [Server thread/INFO]: Loading properties
+[19:11:43] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_60]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_60]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_60]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_60]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_60]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_60]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_60]
+	at ko$2.run(SourceFile:81) [minecraft_server.1.8.8.exe:?]
+[19:11:43] [Server thread/INFO]: Default game type: SURVIVAL
+[19:11:43] [Server thread/INFO]: Generating keypair
+[19:11:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:11:44] [Server thread/INFO]: Using default channel type
+[19:11:45] [Server thread/INFO]: Preparing level "world"
+[19:11:45] [Server thread/INFO]: Preparing start region for level 0
+[19:11:46] [Server thread/INFO]: Preparing spawn area: 0%
+[19:11:47] [Server thread/INFO]: Preparing spawn area: 24%
+[19:11:48] [Server thread/INFO]: Preparing spawn area: 36%
+[19:11:49] [Server thread/INFO]: Preparing spawn area: 86%
